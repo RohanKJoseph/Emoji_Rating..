@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    background-color: #f5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.feedback_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffff;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    position: relative;
+    
+}
+
+.emoji_container{
+    width: 38px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+    
+    
+}
+
+.emoji{
+    padding-bottom:10px ;
+    font-size: 30px;
+}
+
+.far{
+    transform: translateX(-80px);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.rating_container{
+    padding:10px;
+    font-size:22px ;
+    background-color: rgb(232, 254, 157);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border:1px solid #c49a10;
+}
+
+
+.fas{
+    color: lightgray;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+.active{
+    color: #f1c40f;
+}
